@@ -14,7 +14,6 @@ class Atuin < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux:  "58b5d8e9f750dec386e4ceaf09e58e7e071d4e68312f82b0be74b1ae3894e710"
   end
 
-  depends_on "protobuf" => :build
   depends_on "rust" => :build
 
   def install
